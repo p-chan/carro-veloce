@@ -1,0 +1,22 @@
+{
+  "name": "carro-veloce",
+  "version": "0.0.0",
+  "description": "A lightweight mixin library for Stylus",
+  "main": "./lib/carro-veloce.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/p1ch-jp/carro-veloce.git"
+  },
+  "keywords": [
+    "stylus"
+  ],
+  "author": "p1ch_jp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/p1ch-jp/carro-veloce/issues"
+  },
+  "homepage": "https://github.com/p1ch-jp/carro-veloce#readme"
+}
