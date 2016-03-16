@@ -4,7 +4,7 @@
   "description": "A lightweight mixin library for Stylus",
   "main": "./lib/carro-veloce.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/p1ch-jp/carro-veloce/issues"
   },
-  "homepage": "https://github.com/p1ch-jp/carro-veloce#readme"
+  "homepage": "https://github.com/p1ch-jp/carro-veloce#readme",
+  "dependencies": {
+    "stylus": "^0.54.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.2"
+  }
 }
