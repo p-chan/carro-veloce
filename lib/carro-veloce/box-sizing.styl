@@ -1,0 +1,15 @@
+/**
+ * Box-sizing
+ *
+ * See https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+
+box-sizing()
+  if selector() is "&"
+    html
+      box-sizing border-box
+    *, *:before, *:after
+            box-sizing inherit
+  else
+    *, *:before, *:after
+      box-sizing border-box
