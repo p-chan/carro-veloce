@@ -1,0 +1,47 @@
+/**
+ * Flexbox based grid system.
+ *
+ */
+
+grid()
+  display flex
+  flex-wrap wrap
+  > *
+    flex 1
+
+grid--auto()
+  > *
+    flex auto
+
+// Alignment
+
+grid--left()
+  justify-content flex-start
+
+grid--right()
+  justify-content flex-end
+
+grid--center()
+  justify-content center
+
+grid--between()
+  justify-content space-between
+
+grid--around()
+  justify-content space-around
+
+// Vartical Alignment
+
+grid--top()
+  align-items flex-start
+
+grid--middle()
+  align-items center
+
+grid--bottom()
+  align-items flex-end
+
+// Column
+cell($numerator, $denominator)
+  flex 0 1 percentage($numerator/$denominator)
+  max-width percentage($numerator/$denominator)
