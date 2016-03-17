@@ -1,6 +1,8 @@
 # Carro Veloce
 > A lightweight mixin library for Stylus
 
+![Carro Veloce](http://i.imgur.com/LbbJzMY.gif)
+
 ## Features
 - Flexbox based grid system
 - Micro clearfix for modern browser
@@ -13,7 +15,9 @@ Carro Veloce is simple, so It can not put a vendor prefix.
 If you want put a vendor prefix, I recommend that you use the Autoprefixer.
 
 ## Install
-TODO
+```
+$ npm install carro-veloce
+```
 
 ## Usage
 TODO
