@@ -1,0 +1,38 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid > * {
+  flex: 1;
+}
+.grid--auto > * {
+  flex: auto;
+}
+.grid--left {
+  justify-content: flex-start;
+}
+.grid--right {
+  justify-content: flex-end;
+}
+.grid--center {
+  justify-content: center;
+}
+.grid--between {
+  justify-content: space-between;
+}
+.grid--around {
+  justify-content: space-around;
+}
+.grid--top {
+  align-items: flex-start;
+}
+.grid--middle {
+  align-items: center;
+}
+.grid--bottom {
+  align-items: flex-end;
+}
+.cell {
+  flex: 0 1 33.33333333333333%;
+  max-width: 33.33333333333333%;
+}
