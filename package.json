@@ -1,6 +1,6 @@
 {
   "name": "carro-veloce",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lightweight mixin library for Stylus",
   "main": "./lib/carro-veloce.js",
   "scripts": {
